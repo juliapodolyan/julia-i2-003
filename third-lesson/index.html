@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="form.css">
+</head>
+<body>
+	<form action="http://maximumstart.herokuapp.com/register" method="get" class="form">
+		<h1>Регистрация</h1>
+		<p>*Все поля обязательны к заполнению</p>
+		<p>
+			<label for="your_name_1">Имя</label>
+			<input type="text" name="name" id="your_name_1" required>
+		</p>
+		<p>
+			<label for="surname_2">Фамилия</label>
+			<input type="text" name="surname" id="surname_2" required>
+		</p>
+		<p>
+			<label for="telephone_number">Телефон</label>
+			<input type="tel" name="phone" id="telephone_number" placeholder="+38(0XX)XXX-XXXX" pattern="^\+380\d{9}$" required>
+		</p>
+		<p>
+			<label for="favorite_color">Любимый цвет</label>
+			<input type="color" name="color" id="favorite_color" required>
+		</p>
+		<p>
+			<label for="today_date">Сегодняшнее число</label>
+			<input type="date" name="date" id="today_date"  required>
+			
+		</p>
+		<p>
+			<label for="password_1">Пароль</label>
+			<input type="password" name="password" id="password_1" required>
+		</p>
+		
+			<input type="radio" name="gender" id="gender_choice_1" value="Мальчик" required>
+			<label for="gender_choice_1">Мальчик</label>
+			<input type="radio" name="gender" id="gender_choice_2" value="Девочка">
+			<label for="gender_choice_2">Девочка</label>
+			<input type="radio" name="gender" id="gender_choice_3" value="Не определился">
+			<label for="gender_choice_3">Не определился</label>
+		
+		<p>
+			<label for="new_message">Сообщение</label>
+			<textarea name="message" id="new_message" cols="30" rows="10" required></textarea>
+		</p>
+		<input type="submit">
+	</form>	
+</body>
+</html>
