@@ -120,11 +120,18 @@ img {
     margin-right: 22px;
 }
 
-.header {
+.wrapper-header {
     background-color: #000;
     background-image: url("../img/Layer 1.png");
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 1170px;
     padding: 53px 0 269px 0;
 }
 
@@ -231,11 +238,17 @@ img {
     transition: ease-in-out .5s;
 }
 
+.wrapper-bgc1 {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+}
+
 .information__about {
+    width: 1170px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fafafa;
     padding: 89px 0;
 }
 
@@ -268,8 +281,16 @@ img {
     color: #4c4c4c;
 }
 
-.pets__gallery {
+.wrapper-bgc2 {
     background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.pets__gallery {
+    width: 1170px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -385,6 +406,7 @@ img {
 }
 
 .help {
+    width: 1170px;
     background-color: #fafafa;
     padding: 62px 0 75px 0;
 }
@@ -421,6 +443,7 @@ img {
 }
 
 .donation {
+    width: 1170px;
     padding: 65px 0 68px 10px;
     background-color: #f6f6f6;
     display: flex;
@@ -484,11 +507,17 @@ img {
     line-height: 18px;
 }
 
-.footer {
+.wrapper-footer {
     background-color: #000;
     background-image: url("../img/Layer 2.png");
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 1170px;
     display: flex;
     justify-content: flex-start;
     padding: 64px 0 48px;
