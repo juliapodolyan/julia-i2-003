@@ -247,3 +247,84 @@ img {
     line-height: 24px;
     color: #4c4c4c;
 }
+
+.pets__gallery {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 78px 0 68px;
+}
+
+.gallery__title {
+    text-align: center;
+}
+
+.gallery__list {
+    margin: 66px 0 58px 0;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery__item {
+    border: 2px solid #fafafa;
+    max-width: 270px;
+    height: auto;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    margin-right: 50px;
+    padding-bottom: 34px;
+}
+
+.gallery__item:nth-child(5) {
+    margin-right: 0;
+}
+
+.pet__img {
+  width: 270px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.pet__name {
+    font-family: Georgia, "Century Schoolbook L", serif;
+    color: #545454;
+    font-size: 20px;
+    letter-spacing: .06em;
+}
+
+.button__learn-more {
+    border: 2px solid #f1cdb3;
+    background-color: #fafafa;
+    padding: 14px 46px;
+    text-transform: capitalize;
+    transition: ease-in-out .5s;
+    margin-top: 24px;
+}
+
+.button__rest {
+    background-color: #f1cdb3;
+    transition: ease-in-out .5s;
+    padding: 18px 49px;
+}
+
+.slider__arrow {
+  border: 2px solid #f1cdb3;
+  border-radius: 50%;
+  background-color: #f6f6f6;
+  padding: 22px 19px;
+  transition: ease-in-out .5s;
+}
+
+.slider {
+    background-color: #f6f6f6;
+    border: 0;
+}
