@@ -1,0 +1,122 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+    font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-ambulance {
+    width: 65px;
+    height: 65px;
+    background-position: -5px -5px;
+}
+
+.sprite-ball {
+    width: 58px;
+    height: 58px;
+    background-position: -80px -5px;
+}
+
+.sprite-bowl {
+    width: 58px;
+    height: 55px;
+    background-position: -148px -5px;
+}
+
+.sprite-cat {
+    width: 54px;
+    height: 57px;
+    background-position: -148px -70px;
+}
+
+.sprite-cat-food {
+    width: 45px;
+    height: 57px;
+    background-position: -5px -137px;
+}
+
+.sprite-credit-card-_1_ {
+    width: 30px;
+    height: 24px;
+    background-position: -60px -137px;
+    margin-right: 14px;
+}
+
+.sprite-envelope {
+    width: 40px;
+    height: 26px;
+    background-position: -100px -137px;
+    margin-right: 22px;
+}
+
+.sprite-leash {
+    width: 65px;
+    height: 57px;
+    background-position: -150px -137px;
+}
+
+.sprite-long-left-arrow {
+    width: 15px;
+    height: 7px;
+    background-position: -5px -204px;
+}
+
+.sprite-long-right-arrow {
+    width: 15px;
+    height: 7px;
+    background-position: -30px -204px;
+}
+
+.sprite-pills {
+    width: 64px;
+    height: 57px;
+    background-position: -216px -5px;
+}
+
+.sprite-pin {
+    width: 28px;
+    /*width: 55px;*/
+    height: 36px;
+    background-position: -212px -72px;
+    margin-right: 20px;
+}
+
+.sprite-pin1 {
+    width: 28px;
+    height: 36px;
+    background-position: -248px -72px;
+    margin-right: 20px;
+}
+
+.sprite-shampoo {
+    width: 30px;
+    height: 58px;
+    background-position: -225px -118px;
+}
+
+.sprite-syringe {
+    width: 58px;
+    height: 58px;
+    background-position: -60px -186px;
+}
+
+.sprite-telephone {
+    width: 40px;
+    height: 32px;
+    background-position: -225px -186px;
+    margin-right: 22px;
+}
