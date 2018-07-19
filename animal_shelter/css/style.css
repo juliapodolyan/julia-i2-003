@@ -417,3 +417,48 @@ img {
     font-size: 12px;
     line-height: 18px;
 }
+
+.footer {
+    background-color: #000;
+    background-image: url("../img/Layer 2.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    padding: 64px 0 48px;
+}
+
+.footer__item {
+    max-width: 310px;
+    margin-right: 141px;
+
+}
+
+.footer__item-title {
+    color: #fff;
+}
+
+.contacts-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.contacts-list__item {    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 24px 0 0;
+    height: 46px;
+}
+
+.email {
+    text-decoration: none;
+    color: #f1cdb3;
+}
+
+.item-text {
+    font-family: "Times New Roman", "Times CY", "Nimbus Roman No9 L", serif;
+    color: #f1cdb3;
+    font-size: 20px;
+    letter-spacing: .06em;
+}
