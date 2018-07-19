@@ -120,3 +120,57 @@ img {
     background-position: -225px -186px;
     margin-right: 22px;
 }
+
+.header {
+    background-color: #000;
+    background-image: url("../img/Layer 1.png");
+    background-position: center;
+    background-size: cover;
+    padding: 53px 0 269px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo__title {
+    font-family: Georgia, "Century Schoolbook L", serif;
+    color: #f1cdb3;
+    font-size: 32px;
+    letter-spacing: .06em;
+    margin: 0px;
+}
+
+.logo__subtitle {
+    font-size: 13px;
+    line-height: 29px;
+    letter-spacing: .11em;
+    color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-left: auto;
+}
+
+.menu__item {
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #cdcdcd;
+}
+
