@@ -8,152 +8,164 @@
 	<link rel="shortcut icon" href="img/favicon.png" type="img/png">
 </head>
 <body>
-	<header class="header">
-		<nav class="nav">
-			<div class="logo">
-				<h1 class="logo__title">Cozy House</h1>
-				<span class="logo__subtitle">Shelter for pets in Boston</span>
+	<div class="wrapper-header">
+		<header class="header">
+			<nav class="nav">
+				<div class="logo">
+					<h1 class="logo__title">Cozy House</h1>
+					<span class="logo__subtitle">Shelter for pets in Boston</span>
+				</div>
+				<ul class="menu">
+					<li class="menu__item">
+						<a href="#" class="menu__link">About the shelter</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Our pets</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">To help the shelter</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Contacts</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="aside">
+				<h1 class="aside__title">Not only people <br> need a house</h1>
+				<p class="text aside__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida est in porttitor  porttitor. Duis sodales elementum ipsum, vehicula condimentum erat fringilla et.</p>
+				<a href="#" class="button button__make-a-friend">Make a friend</a>
 			</div>
-			<ul class="menu">
-				<li class="menu__item">
-					<a href="#" class="menu__link">About the shelter</a>
+		</header>
+	</div>
+	<div class="wrapper-bgc1">
+		<section class="information__about">
+			<img src="img/Pets.png" alt="pets" class="about__img">
+			<div class="about__wrap">
+				<h1 class="title about__title">About the shelter <br> “Cozy House”</h1>
+				<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur blandit condimentum. Proin accumsan lorem vel gravida fringilla. Suspendisse potenti. Mauris ut pulvinar nunc.</p>
+				<p class="about__text">Donec consectetur, diam in porta tempus, urna ligula vestibulum nibh, ac ornare felis justo nec leo. Praesent mattis nibh quis ultrices pharetra. Morbi tempus at ante sit amet tristique. Maecenas dignissim justo orci, in laoreet urna dapibus nec. Praesent quis tortor faucibus, tristique ante vitae, dignissim lorem. Sed at ligula et sem mattis gravida ac vel erat.</p>
+			</div>
+		</section>
+	</div>
+	<div class="wrapper-bgc2">
+		<section class="pets__gallery">
+			<h1 class="title gallery__title">Our friends who <br> are looking for a house</h1>
+			<ul class="gallery__list">
+				<li class="slider gallery__item">
+					<button class="slider__arrow left-arrow">
+						<i class="sprite sprite-long-left-arrow"></i>
+					</button>
 				</li>
-				<li class="menu__item">
-					<a href="#" class="menu__link">Our pets</a>
+				<li class="active-item gallery__item">
+					<a href="img/Cat.png" class="link-pet__img"><img src="img/Cat.png" alt="cat" class="pet__img"></a>
+					<span class="pet__name">Katrine</span>
+					<a href="#" class="button button__learn-more">Learn more</a>
 				</li>
-				<li class="menu__item">
-					<a href="#" class="menu__link">To help the shelter</a>
+				<li class="active-item gallery__item">
+					<a href="img/Dog.png" class="link-pet__img"><img src="img/Dog.png" alt="dog" class="pet__img"></a>
+					<span class="pet__name">Jennifer</span>
+					<a href="#" class="button button__learn-more">Learn more</a>
 				</li>
-				<li class="menu__item">
-					<a href="#" class="menu__link">Contacts</a>
+				<li class="active-item gallery__item">
+					<a href="img/Dog2.png" class="link-pet__img"><img src="img/Dog2.png" alt="dog2" class="pet__img"></a>
+					<span class="pet__name">Woody</span>
+					<a href="#" class="button button__learn-more">Learn more</a>
 				</li>
-			</ul>
-		</nav>
-		<div class="aside">
-			<h1 class="aside__title">Not only people <br> need a house</h1>
-			<p class="text aside__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida est in porttitor  porttitor. Duis sodales elementum ipsum, vehicula condimentum erat fringilla et.</p>
-			<a href="#" class="button button__make-a-friend">Make a friend</a>
-		</div>
-	</header>
-	<section class="information__about">
-		<img src="img/Pets.png" alt="pets" class="about__img">
-		<div class="about__wrap">
-			<h1 class="title about__title">About the shelter <br> “Cozy House”</h1>
-			<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur blandit condimentum. Proin accumsan lorem vel gravida fringilla. Suspendisse potenti. Mauris ut pulvinar nunc.</p>
-			<p class="about__text">Donec consectetur, diam in porta tempus, urna ligula vestibulum nibh, ac ornare felis justo nec leo. Praesent mattis nibh quis ultrices pharetra. Morbi tempus at ante sit amet tristique. Maecenas dignissim justo orci, in laoreet urna dapibus nec. Praesent quis tortor faucibus, tristique ante vitae, dignissim lorem. Sed at ligula et sem mattis gravida ac vel erat.</p>
-		</div>
-	</section>
-	<section class="pets__gallery">
-		<h1 class="title gallery__title">Our friends who <br> are looking for a house</h1>
-		<ul class="gallery__list">
-			<li class="slider gallery__item">
-				<button class="slider__arrow left-arrow">
-					<i class="sprite sprite-long-left-arrow"></i>
-				</button>
-			</li>
-			<li class="active-item gallery__item">
-				<a href="img/Cat.png" class="link-pet__img"><img src="img/Cat.png" alt="cat" class="pet__img"></a>
-				<span class="pet__name">Katrine</span>
-				<a href="#" class="button button__learn-more">Learn more</a>
-			</li>
-			<li class="active-item gallery__item">
-				<a href="img/Dog.png" class="link-pet__img"><img src="img/Dog.png" alt="dog" class="pet__img"></a>
-				<span class="pet__name">Jennifer</span>
-				<a href="#" class="button button__learn-more">Learn more</a>
-			</li>
-			<li class="active-item gallery__item">
-				<a href="img/Dog2.png" class="link-pet__img"><img src="img/Dog2.png" alt="dog2" class="pet__img"></a>
-				<span class="pet__name">Woody</span>
-				<a href="#" class="button button__learn-more">Learn more</a>
-			</li>
-			<li class="slider gallery__item">
-				<button class="slider__arrow right-arrow">
-					<i class="sprite sprite-long-right-arrow"></i>
-				</button>
-			</li>
-		</ul>
-		<a href="#" class="button button__rest">Get to know the rest</a>
-	</section>
-	<section class="help">
-		<h1 class="title help__title">Than you can help <br> our shelter</h1>
-		<ul class="help__items">
-			<li class="help__item">
-				<i class="sprite sprite-cat-food"></i>
-				<p class="item__subtitle">Pet food</p>
-			</li>
-			<li class="help__item">
-				<i class="sprite sprite-ambulance"></i>
-				<p class="item__subtitle">Transportation</p>
-			</li>
-			<li class="help__item">
-				<i class="sprite sprite-ball"></i>
-				<p class="item__subtitle">Toys</p>
-			</li>
-			<li class="help__item">
-				<i class="sprite sprite-bowl"></i>
-				<p class="item__subtitle">Bowls and cups</p>
-			</li>
-			<li class="help__item">
-				<i class="sprite sprite-shampoo"></i>
-				<p class="item__subtitle">Shampoos</p>
-			</li>
-			<li class="help__item">
-				<i class="sprite sprite-pills"></i>
-				<p class="item__subtitle">Vitamins</p>
-			</li>
-			<li class="help__item">
-				<i class="sprite sprite-syringe"></i>
-				<p class="item__subtitle">Medicines</p>
-			</li>
-			<li class="help__item">
-				<i class="sprite sprite-leash"></i>
-				<p class="item__subtitle">Collars / leashes</p>
-			</li>
-			<li class="help__item">
-				<i class="sprite sprite-cat"></i>
-				<p class="item__subtitle">Sleeping area</p>
-			</li>
-		</ul>
-	</section>
-	<section class="donation">
-		<img src="img/Dog3.png" alt="dog3" class="donation__img">
-		<div class="donation__wrap">
-			<h1 class="title donation__title">In addition, you <br> can make a donation</h1>
-			<span class="donation__subtitle">Name of the bank / Type of bank account</span>
-			<a href="#" class="credit-card-number">
-				<i class="sprite sprite-credit-card-_1_"></i>
-				<span class="account__number">8380 2880 8028 8791 7435</span>
-			</a>
-			<p class="donation__text">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-		</div>
-	</section>
-	<footer class="footer">
-		<div class="footer__item">
-			<h2 class="title footer__item-title">For questions and suggestions</h2>
-			<ul class="contacts-list">
-				<li class="contacts-list__item">
-					<i class="sprite sprite-envelope"></i>
-					<a href="#" class="item-text email">email@shelter.com</a>
-				</li>
-				<li class="contacts-list__item">
-					<i class="sprite sprite-telephone"></i>
-					<span class="item-text phone__number">+13 674 567 75 54</span>
+				<li class="slider gallery__item">
+					<button class="slider__arrow right-arrow">
+						<i class="sprite sprite-long-right-arrow"></i>
+					</button>
 				</li>
 			</ul>
-		</div>
-		<div class="footer__item">
-			<h2 class="title footer__item-title">We are waiting for your visit</h2>
-			<ul class="contacts-list">
-				<li class="contacts-list__item">
-					<i class="sprite sprite-pin"></i>
-					<span class="item-text first__location">Boston, Central Street, 1st (Entrance from the store)</span>
+			<a href="#" class="button button__rest">Get to know the rest</a>
+		</section>
+	</div>
+	<div class="wrapper-bgc1">
+		<section class="help">
+			<h1 class="title help__title">Than you can help <br> our shelter</h1>
+			<ul class="help__items">
+				<li class="help__item">
+					<i class="sprite sprite-cat-food"></i>
+					<p class="item__subtitle">Pet food</p>
 				</li>
-				<li class="contacts-list__item">
-					<i class="sprite sprite-pin1"></i>
-					<span class="item-text second__location">London, South Park, 18st</span>
+				<li class="help__item">
+					<i class="sprite sprite-ambulance"></i>
+					<p class="item__subtitle">Transportation</p>
+				</li>
+				<li class="help__item">
+					<i class="sprite sprite-ball"></i>
+					<p class="item__subtitle">Toys</p>
+				</li>
+				<li class="help__item">
+					<i class="sprite sprite-bowl"></i>
+					<p class="item__subtitle">Bowls and cups</p>
+				</li>
+				<li class="help__item">
+					<i class="sprite sprite-shampoo"></i>
+					<p class="item__subtitle">Shampoos</p>
+				</li>
+				<li class="help__item">
+					<i class="sprite sprite-pills"></i>
+					<p class="item__subtitle">Vitamins</p>
+				</li>
+				<li class="help__item">
+					<i class="sprite sprite-syringe"></i>
+					<p class="item__subtitle">Medicines</p>
+				</li>
+				<li class="help__item">
+					<i class="sprite sprite-leash"></i>
+					<p class="item__subtitle">Collars / leashes</p>
+				</li>
+				<li class="help__item">
+					<i class="sprite sprite-cat"></i>
+					<p class="item__subtitle">Sleeping area</p>
 				</li>
 			</ul>
-		</div>
-	</footer>
+		</section>
+	</div>
+	<div class="wrapper-bgc2">
+		<section class="donation">
+			<img src="img/Dog3.png" alt="dog3" class="donation__img">
+			<div class="donation__wrap">
+				<h1 class="title donation__title">In addition, you <br> can make a donation</h1>
+				<span class="donation__subtitle">Name of the bank / Type of bank account</span>
+				<a href="#" class="credit-card-number">
+					<i class="sprite sprite-credit-card-_1_"></i>
+					<span class="account__number">8380 2880 8028 8791 7435</span>
+				</a>
+				<p class="donation__text">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+			</div>
+		</section>
+	</div>
+	<div class="wrapper-footer">
+		<footer class="footer">
+			<div class="footer__item">
+				<h2 class="title footer__item-title">For questions and suggestions</h2>
+				<ul class="contacts-list">
+					<li class="contacts-list__item">
+						<i class="sprite sprite-envelope"></i>
+						<a href="#" class="item-text email">email@shelter.com</a>
+					</li>
+					<li class="contacts-list__item">
+						<i class="sprite sprite-telephone"></i>
+						<span class="item-text phone__number">+13 674 567 75 54</span>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__item">
+				<h2 class="title footer__item-title">We are waiting for your visit</h2>
+				<ul class="contacts-list">
+					<li class="contacts-list__item">
+						<i class="sprite sprite-pin"></i>
+						<span class="item-text first__location">Boston, Central Street, 1st (Entrance from the store)</span>
+					</li>
+					<li class="contacts-list__item">
+						<i class="sprite sprite-pin1"></i>
+						<span class="item-text second__location">London, South Park, 18st</span>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>

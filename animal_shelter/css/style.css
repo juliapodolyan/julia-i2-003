@@ -88,8 +88,7 @@ img {
 }
 
 .sprite-pin {
-    width: 28px;
-    /*width: 55px;*/
+    width: 55px;
     height: 36px;
     background-position: -212px -72px;
     margin-right: 20px;
