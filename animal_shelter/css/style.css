@@ -364,3 +364,56 @@ img {
     letter-spacing: .06em;
     color: #545454;
 }
+
+.donation {
+    padding: 65px 0 68px 10px;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+}
+
+.donation__img {
+    width: 505px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.donation__wrap {
+    max-width: 365px;
+    margin-left: 62px;
+}
+
+.donation__title {
+    margin-bottom: 25px;
+}
+
+.donation__subtitle {
+    font-family: Georgia, "Century Schoolbook L", serif;
+    color: #545454;
+    font-size: 15px;
+    letter-spacing: .06em;
+}
+
+.credit-card-number {
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #f1cdb3;
+    margin: 13px 0 15px;
+    padding: 12px 13px;
+    border-radius: 9px; 
+}
+
+.account__number {
+    font-family: "Times New Roman", "Times CY", "Nimbus Roman No9 L", serif;
+    color: #292929;
+    font-size: 20px;
+    letter-spacing: .06em;
+}
+
+.donation__text {
+    font-style: italic;
+    color: #b2b2b2;
+    font-size: 12px;
+    line-height: 18px;
+}
