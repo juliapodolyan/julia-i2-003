@@ -174,3 +174,39 @@ img {
     color: #cdcdcd;
 }
 
+.aside {
+    margin-top: 230px;
+    max-width: 470px;
+}
+
+.aside__title {
+    font-family: Georgia, "Century Schoolbook L", serif;
+    font-size: 44px;
+    line-height: 57px;
+    letter-spacing: .06em;
+    color: #ffffff;
+}
+
+.aside__text {
+    margin: 25px 0 40px 0;
+    font-size: 15px;
+    line-height: 24px;
+    color: #cdcdcd;
+}
+
+.button {
+    font-family: Georgia, "Century Schoolbook L", serif;
+    text-decoration: none;
+    display: inline-block;
+    color: #292929;
+    border-radius: 50px;
+    font-size: 17px;
+    letter-spacing: .06em;
+    text-align: center;
+}
+
+.button__make-a-friend {
+    background-color: #f1cdb3;
+    padding: 16px 44px;
+    transition: ease-in-out .5s;
+}
