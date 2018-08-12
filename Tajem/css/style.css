@@ -311,3 +311,40 @@ hr {
     border: 1px solid #00e0d0;
     background-color: #00e0d0;
 }
+
+.about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 70px 10px;
+}
+
+.about__img {
+	width: 235px;
+	height: 229px;
+}
+
+.about__right {
+	width: 540px;
+	margin-left: 100px;
+}
+
+.title {
+	font-family: 'PlayfairDisplay';
+	font-size: 22px;
+	letter-spacing: .05em;
+	color: #413d4b;
+	text-transform: uppercase;
+}
+
+.about__title {
+    margin-bottom: 29px;
+}
+
+.about__text {
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: .03em;
+	color: #413d4b;
+    margin-bottom: 31px;
+}
