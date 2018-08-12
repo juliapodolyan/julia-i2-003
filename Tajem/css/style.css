@@ -1,0 +1,202 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-1280px-Barneys_New_York_Logo {
+    width: 154px;
+    height: 41px;
+    background-position: -5px -5px;
+}
+
+.sprite-1280px-Gucci_Logo {
+    width: 140px;
+    height: 21px;
+    background-position: -169px -5px;
+}
+
+.sprite-1280px-Levi_s_logo {
+    width: 109px;
+    height: 53px;
+    background-position: -169px -36px;
+}
+
+.sprite-1280px-Logo_NIKE {
+    width: 95px;
+    height: 34px;
+    background-position: -5px -99px;
+}
+
+.sprite-Billabong {
+    width: 130px;
+    height: 70px;
+    background-position: -110px -99px;
+}
+
+.sprite-Calvin_klein_logo {
+    width: 151px;
+    height: 24px;
+    background-position: -5px -179px;
+}
+
+.sprite-Converse_logo {
+    width: 113px;
+    height: 69px;
+    background-position: -166px -179px;
+}
+
+.sprite-Logo_of_Mango__new_ {
+    width: 138px;
+    height: 22px;
+    background-position: -5px -258px;
+}
+
+.sprite-PUT-YOUR-ICON-HERE {
+    width: 49px;
+    height: 50px;
+    background-position: -250px -99px;
+}
+
+.sprite-PUT-YOUR-ICON-HERE2 {
+    width: 50px;
+    height: 42px;
+    background-position: -153px -258px;
+}
+
+.sprite-PUT-YOUR-ICON-HERE3 {
+    width: 28px;
+    height: 50px;
+    background-position: -288px -36px;
+}
+
+.sprite-PUT-YOUR-ICON-HERE4 {
+    width: 50px;
+    height: 50px;
+    background-position: -213px -258px;
+}
+
+.sprite-PUT-YOUR-ICON-HERE5 {
+    width: 41px;
+    height: 50px;
+    background-position: -273px -258px;
+}
+
+.sprite-PUT-YOUR-ICON-HERE6 {
+    width: 50px;
+    height: 46px;
+    background-position: -326px -5px;
+}
+
+.sprite-Play-Icon {
+    width: 100px;
+    height: 100px;
+    background-position: -386px -5px;
+    margin-bottom: 34px;
+}
+
+.sprite-Puma_Logo {
+    width: 114px;
+    height: 56px;
+    background-position: -309px -115px;
+}
+
+.sprite-Zara_Logo {
+    width: 162px;
+    height: 22px;
+    background-position: -289px -181px;
+}
+
+.sprite-_ {
+    width: 32px;
+    height: 26px;
+    background-position: -433px -115px;
+}
+
+.sprite-back {
+    width: 11px;
+    height: 21px;
+    background-position: -475px -115px;
+}
+
+.sprite-big104 {
+    width: 36px;
+    height: 19px;
+    background-position: -5px -146px;
+    margin-right: 16px;
+}
+
+.sprite-dribbble4 {
+    width: 16px;
+    height: 16px;
+    background-position: -29px -146px;
+}
+
+.sprite-facebook25 {
+    width: 7px;
+    height: 15px;
+    background-position: -55px -146px;
+}
+
+.sprite-forward {
+    width: 11px;
+    height: 21px;
+    background-position: -72px -146px;
+}
+
+.sprite-google26 {
+    width: 15px;
+    height: 14px;
+    background-position: -475px -146px;
+}
+
+.sprite-instagram3 {
+    width: 15px;
+    height: 15px;
+    background-position: -461px -170px;
+}
+
+.sprite-paper122 {
+    width: 25px;
+    height: 25px;
+    background-position: -461px -195px;
+}
+
+.sprite-phone351 {
+    width: 17px;
+    height: 17px;
+    background-position: -5px -230px;
+    margin-right: 12px;
+}
+
+.sprite-right154 {
+    width: 8px;
+    height: 13px;
+    background-position: -486px -170px;
+    margin-left: 10px;
+}
+
+.sprite-twitter16 {
+    width: 14px;
+    height: 11px;
+    background-position: -32px -230px;
+}
+
+.sprite-youtube13 {
+    width: 17px;
+    height: 11px;
+    background-position: -56px -230px;
+}
