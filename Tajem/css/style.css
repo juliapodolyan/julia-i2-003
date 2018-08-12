@@ -275,3 +275,39 @@ hr {
 	color: #fff;
 	margin: 28px 0 48px;
 }
+
+.button {
+	text-decoration: none;
+	display: inline-block;
+	color: #00e0d0;
+	font-size: 16px;
+	font-family: 'HammersmithOne';
+	text-transform: uppercase;
+	border: 1px solid #00e0d0;
+}
+
+.button__more {
+	padding: 15px;
+}
+
+.slider__list {
+	list-style-type: none;
+	padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__button {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+    margin: 129px 5px 0 0;
+}
+
+.slider__button:hover {
+    border: 1px solid #00e0d0;
+    background-color: #00e0d0;
+}
