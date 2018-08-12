@@ -216,7 +216,7 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 15px 0 70px;
+	padding: 15px 10px 70px 10px;
 }
 
 .nav__bar {
@@ -355,7 +355,7 @@ hr {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 202px 0;
+    padding: 202px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -367,4 +367,91 @@ hr {
     color: #fff;
     font-size: 16px;
     letter-spacing: .05em;
+}
+
+.expertise {
+    padding: 51px 10px 64px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.expertise__title {
+    margin-bottom: 46px;
+}
+
+.subtitle {
+    font-size: 14px;
+    letter-spacing: .075em;
+    font-family: ;
+}
+
+.expertise__subtitle {
+    color: #2f2d35;
+    margin: 15px 0 18px;
+}
+
+.expertise__container {
+	width: 940px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.expertise__element {
+    margin: 0;
+    width: 249px;
+    height: 247px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 33px;
+}
+
+.expertise__element:nth-child(1) {
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    padding-left: 0;
+}
+
+.expertise__element:nth-child(2) {
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.expertise__element:nth-child(3) {
+    border-bottom: 1px solid #ebebeb;
+    padding-right: 0;
+}
+
+.expertise__element:nth-child(4) {
+    border-right: 1px solid #ebebeb;
+    padding-left: 0;
+}
+
+.expertise__element:nth-child(5) {
+    border-right: 1px solid #ebebeb;
+}
+
+.expertise__element:nth-child(6) {
+    padding-right: 0;
+}
+
+.element__title {
+    font-size: 14px;
+    letter-spacing: .05em;
+    color: #413d4b;
+    margin-top: 35px;
+}
+
+.element__text {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: .05em;
+    color: #333333;
+    margin-top: 9px;
 }
