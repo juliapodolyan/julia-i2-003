@@ -455,3 +455,90 @@ hr {
     color: #333333;
     margin-top: 9px;
 }
+
+.team {
+    padding: 71px 10px 69px 10px;
+    background-color: #38305a;
+    background-image: url(../img/bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*.team__title {
+    margin-bottom: 47px;
+}*/
+
+.team__title-1 {
+    color: #fff;
+}
+
+.team__subtitle {
+    color: #f9f9f9;
+    margin: 15px 0 18px;
+}
+
+.team__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 47px 0 71px 0;
+}
+
+.team__element {
+    width: 220px;
+    height: 307px;
+    margin-right: 20px;
+    /*padding-bottom: 26px;*/
+}
+
+.team__element:nth-child(4) {
+    margin-right: 0;
+}
+
+.team__member {
+    width: 220px;
+    height: 230px;
+    display: block;
+    margin: 0;
+}
+
+.team__member-text {
+    margin: 0;
+    padding: 23px 0 26px 0;
+    border: 1px solid #fafafa;
+}
+
+.team__member-name {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: ;
+    letter-spacing: .05em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.team__member-position {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fafafa;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.team__text {
+    color: #f3f3f3;
+    font-size: 14px;
+    letter-spacing: .05em;
+}
+
+.button__hiring {
+    margin-top: 26px;
+    padding: 15px;
+}
