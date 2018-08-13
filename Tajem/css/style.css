@@ -706,3 +706,44 @@ hr {
     display: flex;
     justify-content: center;
 }
+
+.footer {
+    padding: 70px 10px 48px 10px;
+    background-color: #38305a;
+    background-image: url(../img/bg5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer__item {
+    max-width: 291px;
+}
+
+.footer__item:nth-child(3) {
+    margin-right: 0;
+}
+
+.logo {
+    margin-bottom: 17px;   
+}
+
+.footer__title {
+    color: #fff;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: .050em;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+
+.footer__text {
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: .025em;
+}
