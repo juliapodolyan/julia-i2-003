@@ -653,3 +653,56 @@ hr {
 .control__arrow {
     margin: 0 32px 0 32px;
 }
+
+.contact {
+    padding: 72px 10px 70px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact__form {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__title {
+    margin-bottom: 35px;
+}
+
+.text__field {
+    width: 460px;
+    margin-bottom: 21px;
+    padding: 16px 21px 16px 21px;
+    font-size: 14px;
+    letter-spacing: .05em;
+/*    font-family: Roboto;*/
+    color: #413d4b;
+}
+
+.button__submit {
+    background-color: #fff;
+    padding: 15px 33px;
+}
+
+.clients {
+    width: 380px;
+}
+
+.client__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.client__logo {
+    width: 160px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
