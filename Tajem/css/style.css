@@ -305,11 +305,13 @@ hr {
     height: 8px;
     background-color: transparent;
     margin: 129px 5px 0 0;
+    transition: ease-in-out .5s;
 }
 
 .slider__button:hover {
     border: 1px solid #00e0d0;
     background-color: #00e0d0;
+    transition: ease-in-out .5s;
 }
 
 .about {
@@ -394,7 +396,7 @@ hr {
 }
 
 .expertise__container {
-	width: 940px;
+	max-width: 940px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -484,6 +486,7 @@ hr {
 }
 
 .team__container {
+	max-width: 940px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -568,7 +571,7 @@ hr {
 }
 
 .works__container {
-	width: 940px;
+	max-width: 940px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -586,4 +589,67 @@ hr {
 .button__load-more {
     padding: 15px 27px;
     background-color: #fff;
+}
+
+.testimonials {
+    text-align: center;
+    background-color: #38305a;
+    background-image: url(../img/bg4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 69px 10px;
+}
+
+.slide-content {
+	max-width: 940px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials__description {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: .025em;
+    color: #fff;
+    margin: 43px 0 54px;
+    width: 780px;
+}
+
+.slides-wrapper {
+	max-width: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.scrollable {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrollable__item {
+    margin-left: 14px;
+    height: 45px;
+    width: 45px;
+}
+
+.scrollable__item:nth-child(1) {
+    margin: 0;
+}
+
+.scrollable__item:nth-child(3) {
+    width: 70px;
+    height: 70px;
+}
+
+.control__arrow {
+    margin: 0 32px 0 32px;
 }
