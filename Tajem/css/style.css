@@ -311,10 +311,14 @@ img {
 	margin-bottom: 17px;
 }
 
-hr {
-  background-color: #00e0d0;
+.line { 
   width: 50px;
   height: 1px;
+  border: none;
+}
+
+.main__line {
+	background-color: #00e0d0;
 }
 
 .main__text {
@@ -460,6 +464,10 @@ hr {
     margin: 15px 0 18px;
 }
 
+.expertise__line {
+	background-color: #c6c4c9;
+}
+
 .expertise__container {
 	max-width: 940px;
     display: flex;
@@ -547,6 +555,10 @@ hr {
 .team__subtitle {
     color: #f9f9f9;
     margin: 11px 0 18px;
+}
+
+.team__line {
+	background-color: #655c80;
 }
 
 .team__container {
