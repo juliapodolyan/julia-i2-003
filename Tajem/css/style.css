@@ -709,6 +709,10 @@ img {
     align-items: center;
 }
 
+.testimonials__title {
+    margin: 0;
+}
+
 .testimonials__description {
 	font-family: 'PlayfairDisplay-regular', serif;
     font-size: 16px;
